@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "name": "minecraft:saddle"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{ana:{Tags:[\"illager_horn\"]},RagDamage:5,RagDurability:5,display:{Name:'{\"translate\":\"item.ana.illager_horn\",\"italic\":false}'},HideFlags:4,Unbreakable:1b,CustomModelData:4050001}"
+            },
+            {
+               "function":"set_lore",
+               "lore": [
+                 {"translate":"lore.rag.durability","with":[{"score":{"name":"illager_horn","objective":"ana.durability"}},{"score":{"name":"illager_horn","objective":"ana.durability"}}]}
+               ],
+               "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

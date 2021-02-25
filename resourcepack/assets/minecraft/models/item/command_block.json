@@ -1,0 +1,151 @@
+{
+	"parent": "block/command_block", 
+	"textures": {
+		"layer0": "block/command_block"
+	},
+	"overrides": [		{
+			"predicate": {
+				"custom_model_data": 4040130
+			},
+			"model": "dnd/entity/adult_giraffatitan_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050001
+			},
+			"model": "ana/entity/sunken_golem/sunken_golem_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050002
+			},
+			"model": "ana/entity/sunken_golem/sunken_golem_stun"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050003
+			},
+			"model": "ana/entity/sunken_golem/sunken_golem_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050004
+			},
+			"model": "ana/entity/sunken_boi/sunken_boi_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050005
+			},
+			"model": "ana/entity/sunken_boi/sunken_boi_stun"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050006
+			},
+			"model": "ana/entity/sunken_boi/sunken_boi_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050007
+			},
+			"model": "ana/entity/parvee/parvee_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050008
+			},
+			"model": "ana/entity/parvee/parvee_snap"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050009
+			},
+			"model": "ana/entity/parvee/parvee_swimming"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051000
+			},
+			"model": "ana/entity/jorogumo/jorogumo_closed_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051001
+			},
+			"model": "ana/entity/jorogumo/jorogumo_closed_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051002
+			},
+			"model": "ana/entity/jorogumo/jorogumo_open_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051003
+			},
+			"model": "ana/entity/jorogumo/jorogumo_open_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051004
+			},
+			"model": "ana/entity/jorogumo/jorogumo_open_running"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051005
+			},
+			"model": "ana/entity/kikimora/kikimora_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051006
+			},
+			"model": "ana/entity/kikimora/kikimora_staring"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051007
+			},
+			"model": "ana/entity/kikimora/kikimora_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051008
+			},
+			"model": "ana/entity/kikimora/kikimora_running"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051009
+			},
+			"model": "ana/entity/shtriga/shtriga_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051010
+			},
+			"model": "ana/entity/shtriga/shtriga_feeding"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051011
+			},
+			"model": "ana/entity/shtriga/shtriga_walking"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051012
+			},
+			"model": "ana/entity/shtriga/shtriga_running"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4051013
+			},
+			"model": "item/cyberdemon"
+		}
+	]
+}

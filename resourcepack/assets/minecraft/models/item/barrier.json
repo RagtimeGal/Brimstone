@@ -1,0 +1,73 @@
+{
+	"parent": "block/barrier", 
+	"textures": {
+		"layer0": "item/barrier"
+	},
+	"overrides": [		{
+			"predicate": {
+				"custom_model_data": 4050001
+			},
+			"model": "ana/item/check_mark"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050002
+			},
+			"model": "ana/item/blank"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050003
+			},
+			"model": "ana/gui/archaeology_workbench/archaeology_workbench"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050004
+			},
+			"model": "ana/gui/archaeology_workbench/0.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050005
+			},
+			"model": "ana/gui/archaeology_workbench/1.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050006
+			},
+			"model": "ana/gui/archaeology_workbench/2.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050007
+			},
+			"model": "ana/gui/archaeology_workbench/3.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050008
+			},
+			"model": "ana/gui/archaeology_workbench/4.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050009
+			},
+			"model": "ana/gui/archaeology_workbench/5.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050010
+			},
+			"model": "ana/gui/archaeology_workbench/6.hammer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4050011
+			},
+			"model": "ana/gui/archaeology_workbench/7.hammer"
+		}
+	]
+}

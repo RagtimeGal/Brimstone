@@ -1,0 +1,13 @@
+{
+	"parent": "block/dispenser", 
+	"textures": {
+		"layer0": "block/dispenser"
+	},
+	"overrides": [		{
+			"predicate": {
+				"custom_model_data": 4050001
+			},
+			"model": "ana/block/archaeology_workbench"
+		}
+	]
+}
