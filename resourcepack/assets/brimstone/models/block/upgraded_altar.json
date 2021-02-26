@@ -1,0 +1,58 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"bottom": "brimstone:block/stone",
+		"base": "brimstone:block/upgraded_altar_base",
+		"front": "brimstone:block/upgraded_altar_front",
+		"particle": "brimstone:block/upgraded_altar_sides",
+		"sides": "brimstone:block/upgraded_altar_sides",
+		"top": "brimstone:block/upgraded_altar_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#base", "cullface": "north"},
+				"east": {"uv": [0, 6, 16, 8], "texture": "#base", "cullface": "east"},
+				"south": {"uv": [0, 6, 16, 8], "texture": "#base", "cullface": "south"},
+				"west": {"uv": [0, 6, 16, 8], "texture": "#base", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#base"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4, 2, 4],
+			"to": [12, 15, 12],
+			"faces": {
+				"north": {"uv": [0, 3, 8, 16], "texture": "#front"},
+				"east": {"uv": [3, 16, 16, 8], "rotation": 90, "texture": "#sides"},
+				"south": {"uv": [8, 3, 16, 16], "texture": "#front"},
+				"west": {"uv": [3, 8, 16, 16], "rotation": 90, "texture": "#sides"}
+			}
+		},
+		{
+			"from": [0, 13.5, 0],
+			"to": [16, 17.5, 16],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 15.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#sides"},
+				"east": {"uv": [0, 4, 16, 8], "texture": "#sides"},
+				"south": {"uv": [0, 4, 16, 8], "texture": "#sides"},
+				"west": {"uv": [0, 4, 16, 8], "texture": "#sides"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [30.5, -32.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}
